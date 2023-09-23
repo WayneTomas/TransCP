@@ -1,3 +1,3 @@
 # TransCP
 
-The codes and pre-trained checkpoints will be released upon the manuscript is accepted.
+The codes and pre-trained checkpoints will be released once the manuscript is accepted.
