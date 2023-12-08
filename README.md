@@ -42,8 +42,8 @@ This repository contains the **official implementation** and **checkpoints** of 
   
 ## Todo
 1. [x] Update the README.
-1. [] Release the codes.
-2. [] Release the checkpoints.
+2. [] Release the codes.
+3. [] Release the checkpoints.
 4. [] Release the adapted compared methods codes/ckpts
 
 
