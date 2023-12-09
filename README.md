@@ -92,7 +92,7 @@ python -m torch.distributed.launch --nproc_per_node=1 --master_port=29539 --use_
 ## Cite
 
 ```bibtex
-@article{tai2023link,
+@article{tang2023context,
   title={Context Disentangling and Prototype Inheriting for Robust Visual Grounding},
   author={Wei, Tang and Liang, Li and Xuejing Liu and Lu Jin and Jinhui Tang and Zechao, Li},
   journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},
