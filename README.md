@@ -30,7 +30,7 @@
 
 ## Updates
 - **28 Nov, 2023**: :boom::boom:  Our paper "Context Disentangling and Prototype Inheriting for Robust Visual Grounding" has been accepted by IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI).
-- **3 june, 2024**: :boom::boom:  The codes has been released.
+- **3 june, 2024**: :boom::boom:  The codes have been released.
 
 ---
 This repository contains the **official implementation** and **checkpoints** of the following paper:
