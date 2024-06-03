@@ -1,5 +1,4 @@
 # Context Disentangling and Prototype Inheriting for Robust Visual Grounding
-paper link: https://arxiv.org/pdf/2312.11967
 
 <!-- <p align="center" width="100%">
 <img src="ISEKAI_overview.png"  width="80%" height="80%">
