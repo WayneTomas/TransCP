@@ -102,6 +102,9 @@ python -m torch.distributed.launch --nproc_per_node=1 --master_port=29539 --use_
   year={2023}
 }
 ```
+```
+paper link: https://arxiv.org/pdf/2312.11967
+```
 
 ## Acknowledgement
 Part of our code is based on the previous works [DETR](https://github.com/facebookresearch/detr), [TransVG](https://github.com/djiajunustc/TransVG), and [VLTVG](https://github.com/yangli18/VLTVG), thanks for the authors. And we thank for Prof. [Sibei Yang](https://sibeiyang.github.io/dataset/ref-reasoning/) for providing the Ref-Reasoning dataset.
