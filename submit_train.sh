@@ -18,4 +18,4 @@ python -m torch.distributed.launch --nproc_per_node=2 --master_port=29516 train.
 # python -m torch.distributed.launch --nproc_per_node=2 --master_port=29516 train.py --config configs/TransCP_R50_unc+.py
 
 # train refcocog (gref)
-# python -m torch.distributed.launch --nproc_per_node=2 --master_port=29516 train.py --config configs/TransCP_R50_gref.py --max_query_len 40
+# python -m torch.distributed.launch --nproc_per_node=2 --master_port=29516 train.py --config configs/TransCP_R50_gref.py
