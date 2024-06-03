@@ -42,7 +42,7 @@ This repository contains the **official implementation** and **checkpoints** of 
   
 ## Todo
 1. [x] Update the README.
-2. [] Release the codes.
+2. [x] Release the codes.
 3. [] Release the checkpoints.
 4. [] Release the adapted compared methods codes/ckpts
 
@@ -72,7 +72,7 @@ Please follow the instruction of [VLTVG/TransVG](https://github.com/yangli18/VLT
 
 The following is an example of model training on the RefCOCO dataset.
 ```shell
-python -m torch.distributed.launch --nproc_per_node=2 --master_port=29508 --use_env train.py --config configs/TransCP_R50_unc.py 
+python -m torch.distributed.launch --nproc_per_node=2 --master_port=29516 train.py --config configs/TransCP_R50_unc.py
 ```
 
 ## Inference
@@ -80,13 +80,13 @@ python -m torch.distributed.launch --nproc_per_node=2 --master_port=29508 --use_
 For stanadard scene:
 train on RefCOCO train, test on RefCOCO-testB split
 ```shell
-python -m torch.distributed.launch --nproc_per_node=1 --master_port=29539 --use_env test.py --config configs/TransCP_R50_unc.py --checkpoint outputs/unc/checkpoint_best_acc.pth --batch_size_test 16 --test_split testB
+python -m torch.distributed.launch --nproc_per_node=1 --master_port=29516 test.py --config configs/TransCP_R50_unc.py --checkpoint outputs/unc/public/checkpoint_best_acc.pth --batch_size_test 16 --test_split testB
 ```
 
 For open-vocabulary scene:
 train on Ref-Reasoning, test on RefCOCO-testB split
 ```shell
-python -m torch.distributed.launch --nproc_per_node=1 --master_port=29539 --use_env test.py --config configs/TransCP_R50_unc.py --checkpoint outputs/ref_reasoning/checkpoint_best_acc.pth --batch_size_test 16 --test_split testB
+python -m torch.distributed.launch --nproc_per_node=1 --master_port=29539 --use_env test.py --config configs/TransCP_R50_unc.py --checkpoint outputs/ref_reasoning/publick/checkpoint_best_acc.pth --batch_size_test 16 --test_split testB
 ```
 
 ## Cite
