@@ -131,7 +131,7 @@ def get_args_parser():
     parser.add_argument('--dist_url', default='env://', help='url used to set up distributed training')
 
     # configure file
-    parser.add_argument('--config', default='configs/VLTVG_R50_referit.py', type=str, help='Path to the configure file.')
+    parser.add_argument('--config', default='configs/TransCP_R50_referit.py', type=str, help='Path to the configure file.')
     parser.add_argument('--model_config')
     return parser
 
@@ -374,7 +374,7 @@ def main(args):
 if __name__ == '__main__':
     # import os
     # os.environ["CUDA_VISIBLE_DEVICES"] = "2"
-    parser = argparse.ArgumentParser('VLTVG training script', parents=[get_args_parser()])
+    parser = argparse.ArgumentParser('TransCP training script', parents=[get_args_parser()])
     args = parser.parse_args()
     if args.config:
         cfg = Config(args.config)
