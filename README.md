@@ -31,6 +31,7 @@
 ## Updates
 - **28 Nov, 2023**: :boom::boom:  Our paper "Context Disentangling and Prototype Inheriting for Robust Visual Grounding" has been accepted by IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI).
 - **3 june, 2024**: :boom::boom:  The codes have been released.
+- **19 june, 2024**: :boom::boom:  The ckpts have been released.
 
 ---
 This repository contains the **official implementation** and **checkpoints** of the following paper:
@@ -44,7 +45,7 @@ This repository contains the **official implementation** and **checkpoints** of 
 ## Todo
 1. [x] Update the README.
 2. [x] Release the codes.
-3. [] Release the checkpoints.
+3. [x] Release the checkpoints.
 4. [] Release the adapted compared methods codes/ckpts
 
 
@@ -67,7 +68,7 @@ Please follow the instruction of [VLTVG/TransVG](https://github.com/yangli18/VLT
 
 
 ## Checkpoint
-...
+[...](https://drive.google.com/drive/folders/1Q6C7oHWqRs99kWMJpm7J8Rh-Io0U2p3p?usp=drive_link)
 
 ## Train
 
