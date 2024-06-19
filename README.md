@@ -1,4 +1,4 @@
-# Context Disentangling and Prototype Inheriting for Robust Visual Grounding
+![图片](https://github.com/WayneTomas/TransCP/assets/12365169/fd63ea13-fd15-450c-85c0-4d6d9895e50e)# Context Disentangling and Prototype Inheriting for Robust Visual Grounding
 
 <!-- <p align="center" width="100%">
 <img src="ISEKAI_overview.png"  width="80%" height="80%">
@@ -69,6 +69,32 @@ Please follow the instruction of [VLTVG/TransVG](https://github.com/yangli18/VLT
 
 ## Checkpoint
 [checkpoints](https://drive.google.com/drive/folders/1Q6C7oHWqRs99kWMJpm7J8Rh-Io0U2p3p?usp=drive_link)
+The original results reported in the paper are from the model trained on 2 GTX 3090; The re-implement results are from the model trained on 2 V100;
+
+| referit | test |
+|--------|------------|
+| original | 72.05%     |
+| re-implement | 72.56%     |
+
+| flickr30k entities | test |
+|--------|------------|
+| original | 80.04%     |
+| re-implement | 79.47%     |
+
+| refcoco | val | testA | testB |
+|--------|------------|------------|------------|
+| original | 84.25%     | 87.38%     | 79.78%     |
+| re-implement | 84.62%     | 87.36%     | 80.00%     |
+
+| refcoco+ | val | testA | testB |
+|--------|------------|------------|------------|
+| original | 73.07%     | 78.05%     | 63.35%     |
+| re-implement | 73.09%     | 78.27%     | 63.14%     |
+
+| refcocog | val |
+|--------|------------|
+| original | 72.60%     |
+| re-implement | 72.14%     |
 
 ## Train
 
