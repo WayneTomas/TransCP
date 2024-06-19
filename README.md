@@ -68,7 +68,7 @@ Please follow the instruction of [VLTVG/TransVG](https://github.com/yangli18/VLT
 
 
 ## Checkpoint
-[...](https://drive.google.com/drive/folders/1Q6C7oHWqRs99kWMJpm7J8Rh-Io0U2p3p?usp=drive_link)
+[checkpoints](https://drive.google.com/drive/folders/1Q6C7oHWqRs99kWMJpm7J8Rh-Io0U2p3p?usp=drive_link)
 
 ## Train
 
