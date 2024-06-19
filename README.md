@@ -1,4 +1,4 @@
-![图片](https://github.com/WayneTomas/TransCP/assets/12365169/fd63ea13-fd15-450c-85c0-4d6d9895e50e)# Context Disentangling and Prototype Inheriting for Robust Visual Grounding
+# Context Disentangling and Prototype Inheriting for Robust Visual Grounding
 
 <!-- <p align="center" width="100%">
 <img src="ISEKAI_overview.png"  width="80%" height="80%">
