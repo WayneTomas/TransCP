@@ -71,6 +71,7 @@ Please follow the instruction of [VLTVG/TransVG](https://github.com/yangli18/VLT
 [checkpoints](https://drive.google.com/drive/folders/1Q6C7oHWqRs99kWMJpm7J8Rh-Io0U2p3p?usp=drive_link)
 The original results reported in the paper are from the model trained on 2 GTX 3090; The re-implement results are from the model trained on 2 V100;
 
+
 | referit | test |
 |--------|------------|
 | original | 72.05%     |
