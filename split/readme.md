@@ -9,9 +9,9 @@ TransCP
 │   │   │      |── ...
 │   ├── other
 │   │   ├── COCO2014
-│    │    │    |── train2014
-│    │    │    │    |──COCO_train2014_xxx.jpg
-│    │    │    │    |── ...
+│   │    │    |── train2014
+│   │    │    │    |──COCO_train2014_xxx.jpg
+│   │    │    │    |── ...
 │   ├── referit
 │   │   ├── images
 │   │        |── xxx.jpg
