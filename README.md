@@ -26,7 +26,6 @@
  -----------------
 
 ![](https://black.readthedocs.io/en/stable/_static/license.svg)
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2FWayneTomas%2FTransCP&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 ## Updates
 - **28 Nov, 2023**: :boom::boom:  Our paper "Context Disentangling and Prototype Inheriting for Robust Visual Grounding" has been accepted by IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI).
@@ -46,7 +45,7 @@ This repository contains the **official implementation** and **checkpoints** of 
 1. [x] Update the README.
 2. [x] Release the codes.
 3. [x] Release the checkpoints.
-4. [] Release the adapted compared methods codes/ckpts
+4. [] Release the adapted compared methods codes/ckpts (Due to a change in my workplace, some of the checkpoints have been lost, and others are still in the process of being organized.)
 
 
 ## Get Start
